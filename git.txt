@@ -1,0 +1,15 @@
+新建一个仓库：git init
+添加追踪文件：git add .
+提交版本：git commit -m "备注"
+添加运程仓库的源：git remote add origin (主机名称) (主机地址)
+例如：git remote add origin https://git.hao99.club/lwh/demo.git
+第一次推送到远程仓库：git push -u origin master
+后面推送到远程仓库：git push
+回退版本：git reset --hard (commit id)
+版本信息：git log
+回退记录：git reflog
+仓库状态：git status
+查看分支：git branch
+新建并切换分支：git checkout -b
+切换分支：git checkout
+合并分支：git merge (分支名)
